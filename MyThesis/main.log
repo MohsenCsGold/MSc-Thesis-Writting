@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2015.11.7)  7 NOV 2015 23:18
+This is XeTeX, Version 3.1415926-2.4-0.9998 (TeX Live 2012/W32TeX) (format=xelatex 2016.1.15)  24 JAN 2016 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1545,684 +1545,796 @@ es
  (c:/texlive/2012/texmf-dist/tex/xelatex/xepersian/color-localise.def
 File: color-localise.def 2011/03/01 v0.1 localising color package
 ))))
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-! fontspec error: "font-not-found"
-! 
-! The font "XB Niloofar" cannot be found.
-! 
-! See the fontspec documentation for further information.
-! 
-! For immediate help type H <return>.
-!...............................................  
-                                                  
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-|'''''''''''''''''''''''''''''''''''''''''''''''
-| A font might not be found for many reasons.
-| Check the spelling, where the font is installed etc. etc.
-| 
-| When in doubt, ask someone for help!
-|...............................................
+\g_fontspec_family_XB Niloofar_int=\count300
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'XBNiloofar(0)' created for font 'XB Niloofar' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=1.15].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->s*[1.15]"XB Niloofar/ICU:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'bold' with NFSS spec.:
+. <->s*[1.15]"XB Niloofar/B/ICU:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'italic' with NFSS spec.:
+. <->s*[1.15]"XB Niloofar/I/ICU:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->s*[1.15]"XB
+. Niloofar/BI/ICU:script=arab;language=FAR;mapping=parsidigits;"
+.................................................
+LaTeX Info: Redefining \persianfont on input line 44.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 11.49994pt on input line 44.
+.................................................
+. fontspec info: "no-scripts"
+. 
+. Font Persian Modern does not contain any OpenType `Script' information.
+.................................................
+\g_fontspec_family_Persian Modern_int=\count301
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'PersianModern(0)' created for font 'Persian Modern' with
+. options [Mapping=parsidigits,Scale=.85].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->s*[.85]"Persian Modern/ICU:mapping=parsidigits;"
+. 
+. * 'bold' with NFSS spec.:
+. <->s*[.85]"Persian Modern/B/ICU:mapping=parsidigits;"
+. 
+. * 'italic' with NFSS spec.:
+. <->s*[.85]"Persian Modern/I/ICU:mapping=parsidigits;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->s*[.85]"Persian Modern/BI/ICU:mapping=parsidigits;"
+.................................................
+Package xepersian-mathsdigitspec Info: DefiningthedefaultPersianmathsdigitsfont
+as'Persian Modern' on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `OPERATORS' on input line 49.
+LaTeX Font Info:    Overwriting symbol font `OPERATORS' in version `normal'
+(Font)                  EU1/persian-modern-regular(1)/m/n --> EU1/PersianModern
+(0)/m/n on input line 49.
+LaTeX Font Info:    Overwriting symbol font `OPERATORS' in version `bold'
+(Font)                  EU1/persian-modern-regular(1)/m/n --> EU1/PersianModern
+(0)/m/n on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `new@mathbf@font@digits' on input l
+ine 49.
+LaTeX Font Info:    Overwriting symbol font `new@mathbf@font@digits' in version
+ `normal'
+(Font)                  EU1/persian-modern-regular(1)/bx/n --> EU1/PersianModer
+n(0)/bx/n on input line 49.
+LaTeX Font Info:    Overwriting symbol font `new@mathbf@font@digits' in version
+ `bold'
+(Font)                  EU1/persian-modern-regular(1)/bx/n --> EU1/PersianModer
+n(0)/bx/n on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `new@mathit@font@digits' on input l
+ine 49.
+LaTeX Font Info:    Overwriting symbol font `new@mathit@font@digits' in version
+ `normal'
+(Font)                  EU1/persian-modern-regular(1)/m/it --> EU1/PersianModer
+n(0)/m/it on input line 49.
+LaTeX Font Info:    Overwriting symbol font `new@mathit@font@digits' in version
+ `bold'
+(Font)                  EU1/persian-modern-regular(1)/m/it --> EU1/PersianModer
+n(0)/m/it on input line 49.
+LaTeX Font Info:    Redeclaring symbol font `new@mathrm@font@digits' on input l
+ine 49.
+LaTeX Font Info:    Overwriting symbol font `new@mathrm@font@digits' in version
+ `normal'
+(Font)                  EU1/persian-modern-regular(1)/m/n --> EU1/PersianModern
+(0)/m/n on input line 49.
+LaTeX Font Info:    Overwriting symbol font `new@mathrm@font@digits' in version
+ `bold'
+(Font)                  EU1/persian-modern-regular(1)/m/n --> EU1/PersianModern
+(0)/m/n on input line 49.
 
 *************************************************
-* fontspec warning: "script-not-exist"
+* fontspec warning: "language-not-exist"
 * 
-* Font 'XB Niloofar' does not contain script 'Parsi'.
+* Language 'Parsi' not available for font 'IranNastaliq' with script 'Parsi'.
+* 'Default' language used instead.
 *************************************************
-! Cannot use \XeTeXOTcountlanguages with nullfont; not an OpenType Layout font.
-<argument> ...eXOTcountlanguages \l_fontspec_font 
-                                                  \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \__int_eval_end: 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-
-! Missing = inserted for \ifnum.
-<to be read again> 
-                   \l_fontspec_script_int 
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-I was expecting to see `<', `=', or `>'. Didn't.
-
-! Cannot use \XeTeXOTlanguagetag with nullfont; not an OpenType Layout font.
-<argument> ...XeTeXOTlanguagetag \l_fontspec_font 
-                                                  \l_fontspec_script_int \l_...
-l.44 \settextfont[Scale=1.15]{XB Niloofar}
-                                          
-(That makes 100 errors; please try again.) 
+\g_fontspec_family_IranNastaliq_int=\count302
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font IranNastaliq/B (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font IranNastaliq/I (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font IranNastaliq/BI (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'IranNastaliq(0)' created for font 'IranNastaliq' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=2.02].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. 
+. <->s*[2.02]"IranNastaliq/ICU:script=arab;language=DFLT;mapping=parsidigits;"
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'XBNiloofar(1)' created for font 'XB Niloofar' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=3.02].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->s*[3.02]"XB Niloofar/ICU:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'bold' with NFSS spec.:
+. <->s*[3.02]"XB Niloofar/B/ICU:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'italic' with NFSS spec.:
+. <->s*[3.02]"XB Niloofar/I/ICU:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->s*[3.02]"XB
+. Niloofar/BI/ICU:script=arab;language=FAR;mapping=parsidigits;"
+.................................................
+\g_fontspec_family_XB Titre_int=\count303
+.................................................
+. fontspec info: "no-font-shape"
+. 
+. Could not resolve font XB Titre/B (it probably doesn't exist).
+.................................................
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'XBTitre(0)' created for font 'XB Titre' with options
+. [Script=Parsi,Language=Parsi,Mapping=parsidigits,Scale=1.02].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->s*[1.02]"XB Titre/ICU:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'italic' with NFSS spec.:
+. <->s*[1.02]"XB Titre/I/ICU:script=arab;language=FAR;mapping=parsidigits;"
+. 
+. * 'bold italic' with NFSS spec.:
+. <->s*[1.02]"XB Titre/BI/ICU:script=arab;language=FAR;mapping=parsidigits;"
+.................................................
+\c@definition=\count304
+\xleftright=\dimen288
+)
+
+LaTeX Warning: Unused global option(s):
+    [a4paper].
+
+(./main.aux (./preface.aux) (./introduction.aux) (./chapter1.aux)
+(./chapter2.aux) (./chapter3.aux) (./dicfa2en.aux) (./dicen2fa.aux)
+
+LaTeX Warning: Label `LastPage' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 4.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 4.
+ (c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 12.59242pt on input line 4.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 426.79135pt, 99.58464pt)
+* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79135pt
+* \textheight=674.33032pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=27.31465pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=106.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 4.
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box55
+Package backref Info: ** backref set up for natbib ** on input line 4.
+Package hyperref Info: Link coloring ON on input line 4.
+
+(c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
+
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count305
+)
+LaTeX Info: Redefining \ref on input line 4.
+LaTeX Info: Redefining \pageref on input line 4.
+LaTeX Info: Redefining \nameref on input line 4.
+
+(./main.out) (./main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+Package backref Info: ** backref set up for natbib ** on input line 4.
+File: besmelah.jpg Graphic file (type QTm)
+ <use  "besmelah.jpg" >
+(c:/texlive/2012/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2011/12/02 v1.10 stringenc: Printable ASCII characters
+
+) [1
+
+
+]
+(./fa_title.tex
+File: logo.png Graphic file (type QTm)
+ <use  "logo.png" >
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 13.79993pt on input line 42.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/bx/n' will be
+(Font)              scaled to size 13.79993pt on input line 42.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 23.85088pt on input line 42.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/bx/n' will be
+(Font)              scaled to size 23.85088pt on input line 42.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 28.61185pt on input line 42.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/bx/n' will be
+(Font)              scaled to size 28.61185pt on input line 42.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 16.55989pt on input line 42.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/bx/n' will be
+(Font)              scaled to size 16.55989pt on input line 42.
+
+
+LaTeX Font Warning: Font shape `EU1/IranNastaliq(0)/bx/n' undefined
+(Font)              using `EU1/IranNastaliq(0)/m/n' instead on input line 42.
+
+LaTeX Font Info:    Font shape `EU1/IranNastaliq(0)/m/n' will be
+(Font)              scaled to size 29.08804pt on input line 42.
+LaTeX Font Info:    Font shape `EU1/IranNastaliq(0)/bx/n' will be
+(Font)              scaled to size 24.24005pt on input line 42.
+[1
+
+
+] [2
+
+] (./rights.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+[][]
+ []
+
+) [3] [4
+
+]
+LaTeX Font Info:    Font shape `EU1/IranNastaliq(0)/m/n' will be
+(Font)              scaled to size 22.11903pt on input line 67.
+\xa=\dimen289
+ [5] [6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
+[][]
+ []
+
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 9.19995pt on input line 95.
+LaTeX Font Info:    Font shape `EU1/IranNastaliq(0)/m/n' will be
+(Font)              scaled to size 16.16003pt on input line 95.
+\xb=\dimen290
+LaTeX Font Info:    Try loading font information for U+stmry on input line 107.
+
+(c:/texlive/2012/texmf-dist/tex/latex/stmaryrd/ustmry.fd)
+LaTeX Font Info:    Try loading font information for U+msa on input line 107.
+
+(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 107.
+
+(c:/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/n' will be
+(Font)              scaled to size 6.80005pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/n' will be
+(Font)              scaled to size 5.10004pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/bx/n' will be
+(Font)              scaled to size 9.30756pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/bx/n' will be
+(Font)              scaled to size 6.80005pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/bx/n' will be
+(Font)              scaled to size 5.10004pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/it' will be
+(Font)              scaled to size 9.30756pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/it' will be
+(Font)              scaled to size 6.80005pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/it' will be
+(Font)              scaled to size 5.10004pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 10.34995pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/n' will be
+(Font)              scaled to size 7.65005pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/n' will be
+(Font)              scaled to size 4.25003pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/bx/n' will be
+(Font)              scaled to size 7.65005pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/bx/n' will be
+(Font)              scaled to size 4.25003pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/it' will be
+(Font)              scaled to size 7.65005pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/PersianModern(0)/m/it' will be
+(Font)              scaled to size 4.25003pt on input line 107.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 6.89996pt on input line 107.
+ [7] [8
+
+] [9] [10
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[][]
+ []
+
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/bx/n' will be
+(Font)              scaled to size 12.59242pt on input line 135.
+[11] [12
+
+])
+\openout2 = `preface.aux'.
+
+ (./preface.tex
+
+Package natbib Warning: Citation `Kooi2003' on page سیزده undefined on inp
+ut line 6.
+
+
+Package natbib Warning: Citation `DELDitmarsch2007' on page سیزده undefine
+d on input line 8.
+
+
+Package natbib Warning: Citation `Sack2007' on page سیزده undefined on inp
+ut line 8.
+
+
+Package natbib Warning: Citation `Fagin1994' on page سیزده undefined on in
+put line 8.
+
+
+Package natbib Warning: Citation `Benthem2009' on page سیزده undefined on 
+input line 10.
+
+
+Package natbib Warning: Citation `Benthem2009' on page سیزده undefined on 
+input line 12.
+
+
+Package natbib Warning: Citation `Kooi2003' on page سیزده undefined on inp
+ut line 14.
+
+
+Package natbib Warning: Citation `Kooithesise2003' on page سیزده undefined
+ on input line 14.
+
+) [13
+
+
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14] (./main.toc)
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+ [15
+
+
+] [16
+
+
+]
+\openout2 = `introduction.aux'.
+
+ (./introduction.tex
+
+Package natbib Warning: Citation `Wright1951' on page 1 undefined on input line
+ 6.
+
+
+Package natbib Warning: Citation `Hintikka1962' on page 1 undefined on input li
+ne 6.
+
+
+Package natbib Warning: Citation `RAKFagin1995' on page 1 undefined on input li
+ne 7.
+
+[1
+
+
+
+
+]
+
+Package natbib Warning: Citation `Gerbrandy1997' on page 2 undefined on input l
+ine 11.
+
+
+Package natbib Warning: Citation `Veltman1996' on page 2 undefined on input lin
+e 11.
+
+
+Package natbib Warning: Citation `Batlag1998' on page 2 undefined on input line
+ 11.
+
+
+Package natbib Warning: Citation `Cate2002' on page 2 undefined on input line 1
+1.
+
+
+Package natbib Warning: Citation `Aumann1976' on page 2 undefined on input line
+ 16.
+
+
+Package natbib Warning: Citation `Fagin1990' on page 2 undefined on input line 
+16.
+
+) [2]
+\openout2 = `chapter1.aux'.
+
+ (./chapter1.tex
+فصل 1.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(1)/bx/n' will be
+(Font)              scaled to size 62.6349pt on input line 1.
+) [3
+
+
+
+
+
+] [4
+
+
+
+]
+\openout2 = `chapter2.aux'.
+
+ (./chapter2.tex
+فصل 2.
+[5
+
+
+]
+
+LaTeX Warning: Reference `def3' on page 6 undefined on input line 17.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+[][]
+ []
+
+
+Overfull \hbox (4.50902pt too wide) in paragraph at lines 22--27
+[][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+[][]
+ []
+
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/m/it' will be
+(Font)              scaled to size 12.59242pt on input line 49.
+LaTeX Font Info:    Font shape `EU1/XBNiloofar(0)/bx/it' will be
+(Font)              scaled to size 12.59242pt on input line 49.
+[6]
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+ [7]
+
+Package natbib Warning: Citation `Benthem2009' on page 8 undefined on input lin
+e 104.
+
+[8])
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+ [9] [10
+
+
+
+]
+\openout2 = `chapter3.aux'.
+
+ (./chapter3.tex
+فصل 3.
+
+LaTeX Warning: Reference `probabilitysource' on page 11 undefined on input line
+ 2.
+
+[11
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
+[][]
+ []
+
+
+Overfull \hbox (4.50902pt too wide) in paragraph at lines 39--40
+[][] [] [] []
+ []
+
+[12]
+Overfull \hbox (4.50902pt too wide) in paragraph at lines 41--42
+[][] [] [] []
+ []
+
+
+Overfull \hbox (4.50902pt too wide) in paragraph at lines 43--44
+[][] [] [] []
+ []
+
+
+Overfull \hbox (4.50902pt too wide) in paragraph at lines 45--46
+[][] [] [] []
+ []
+
+
+LaTeX Warning: Reference `updatedmodel' on page 13 undefined on input line 47.
+
+
+Overfull \hbox (4.50902pt too wide) in paragraph at lines 47--48
+[][] [] [] []
+ []
+
+
+Overfull \hbox (4.50902pt too wide) in paragraph at lines 49--50
+[][] [] [] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+[][]
+ []
+
+
+Package natbib Warning: Citation `Kooi2003' on page 13 undefined on input line 
+58.
+
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+[13]
+
+LaTeX Warning: Reference `identity' on page 14 undefined on input line 91.
+
+[14]
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+ [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 153--157
+[][]
+ []
+
+)
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+Missing character: There is no ‏ in font [persian-modern-oblique]/ICU:script=
+arab;language=FAR;mapping=parsidigits;!
+ [17] [18
+
+
+
+]
+\openout2 = `dicfa2en.aux'.
+
+ (./dicfa2en.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 6--35
+[][]
+ []
+
+[19
+
+
+
+] [20
+
+
+
+]
+\openout2 = `dicen2fa.aux'.
+
+ (./dicen2fa.tex)
+Underfull \hbox (badness 10000) in paragraph at lines 6--37
+[][]
+ []
+
+[21
+
+
+] [22
+
+
+
+]
+No file main.ind.
+No file main.bbl.
+(./en_title.tex) 
+AED: lastpage setting LastPage
+[23
+
+
+
+
+
+]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+(./main.aux (./preface.aux) (./introduction.aux) (./chapter1.aux)
+(./chapter2.aux) (./chapter3.aux) (./dicfa2en.aux) (./dicen2fa.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+ ) 
 Here is how much of TeX's memory you used:
- 35632 strings out of 494004
- 666218 string characters out of 3153866
- 725508 words of memory out of 3000000
- 38319 multiletter control sequences out of 15000+200000
- 6578 words of font info for 52 fonts, out of 3000000 for 9000
+ 36337 strings out of 494004
+ 681752 string characters out of 3153866
+ 736806 words of memory out of 3000000
+ 38806 multiletter control sequences out of 15000+200000
+ 16186 words of font info for 151 fonts, out of 3000000 for 9000
  1144 hyphenation exceptions out of 8191
- 58i,0n,55p,1007b,168s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,13n,55p,1068b,484s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-No pages of output.
+Output written on main.pdf (40 pages).
