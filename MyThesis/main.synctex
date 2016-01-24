@@ -1,9 +1,9 @@
 SyncTeX Version:1
-Input:1:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./main.tex
-Input:2:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./SBU.cls
+Input:1:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./main.tex
+Input:2:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./SBU.cls
 Input:3:c:/texlive/2012/texmf-dist/tex/latex/base/book.cls
 Input:4:c:/texlive/2012/texmf-dist/tex/latex/base/bk11.clo
-Input:5:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./commands.tex
+Input:5:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./commands.tex
 Input:6:c:/texlive/2012/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 Input:7:c:/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Input:8:c:/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -191,19 +191,19 @@ Input:189:c:/texlive/2012/texmf-dist/tex/xelatex/xepersian/messages-localise.def
 Input:190:c:/texlive/2012/texmf-dist/tex/xelatex/xepersian/misc-localise-xepersian.def
 Input:191:c:/texlive/2012/texmf-dist/tex/xelatex/xepersian/packages-localise-xepersian.def
 Input:192:c:/texlive/2012/texmf-dist/tex/xelatex/xepersian/color-localise.def
-Input:193:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./main.aux
-Input:194:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./preface.aux
-Input:195:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./introduction.aux
-Input:196:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter1.aux
-Input:197:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter2.aux
-Input:198:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter3.aux
-Input:199:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./dicfa2en.aux
-Input:200:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./dicen2fa.aux
+Input:193:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./main.aux
+Input:194:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./preface.aux
+Input:195:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./introduction.aux
+Input:196:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter1.aux
+Input:197:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter2.aux
+Input:198:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter3.aux
+Input:199:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./dicfa2en.aux
+Input:200:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./dicen2fa.aux
 Input:201:c:/texlive/2012/texmf-dist/tex/latex/tipa/t3cmr.fd
 Input:202:c:/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
 Input:203:c:/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Input:204:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./main.out
-Input:205:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./main.out
+Input:204:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./main.out
+Input:205:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./main.out
 Input:206:c:/texlive/2012/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
 Output:pdf
 Magnification:1000
@@ -211,7 +211,7 @@ Unit:1
 X Offset:0
 Y Offset:0
 Content:
-!15440
+!15700
 {1
 [1,10:4736287,51586764:27895611,46850477,0
 h1,10:4736287,4736287:0,0,0
@@ -268,8 +268,8 @@ $1,10:32631898,51586764
 ]
 !1153
 }1
-Input:207:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./fa_title.tex
-!87
+Input:207:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./fa_title.tex
+!107
 {2
 [207,42:4736287,51586764:27895611,46850477,0
 h207,42:4736287,4736287:0,0,0
@@ -447,7 +447,7 @@ $207,42:32631898,51586764
 ]
 ]
 ]
-!4735
+!4736
 }2
 !9
 {3
@@ -492,8 +492,8 @@ $207,47:34496578,51586764
 ]
 !907
 }3
-Input:208:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./rights.tex
-!84
+Input:208:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./rights.tex
+!104
 {4
 [207,50:4736287,51586764:27895611,46850477,0
 h207,50:4736287,4736287:0,0,0
@@ -609,7 +609,7 @@ $207,50:32631898,51586764
 ]
 ]
 ]
-!2662
+!2663
 }4
 !9
 {5
@@ -1478,8 +1478,8 @@ $207,141:34496578,51586764
 ]
 !936
 }13
-Input:212:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./preface.tex
-!86
+Input:212:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./preface.tex
+!106
 {14
 [1,18:4736287,51586764:27895611,46850477,193822
 h1,18:4736287,4736287:0,0,0
@@ -1674,7 +1674,7 @@ $1,18:32631898,51586764
 ]
 ]
 ]
-!5009
+!5010
 }14
 !10
 {15
@@ -1809,8 +1809,8 @@ $1,18:34496578,51586764
 ]
 !2999
 }15
-Input:213:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./main.toc
-!84
+Input:213:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./main.toc
+!104
 {16
 [1,21:4736287,51691621:27895611,46955334,227670
 h1,21:4736287,4736287:0,0,0
@@ -2697,7 +2697,7 @@ $1,21:32631898,51691621
 ]
 ]
 ]
-!20086
+!20087
 }16
 !11
 {17
@@ -2734,8 +2734,8 @@ $1,21:34496578,51691621
 ]
 !659
 }17
-Input:214:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./introduction.tex
-!91
+Input:214:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./introduction.tex
+!111
 {18
 [214,10:4736287,51691621:27895611,46955334,7252
 h214,10:4736287,4736287:0,0,0
@@ -3121,7 +3121,7 @@ $214,10:32631898,51691621
 ]
 ]
 ]
-!9354
+!9355
 }18
 !10
 {19
@@ -3416,8 +3416,8 @@ $1,24:34496578,51691621
 ]
 !7280
 }19
-Input:215:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter1.tex
-!88
+Input:215:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter1.tex
+!108
 {20
 [1,26:4736287,51691621:27895611,46955334,6849
 h1,26:4736287,4736287:0,0,0
@@ -3457,8 +3457,11 @@ g215,1:32631898,11814279
 )
 (215,3:4661700,21308075:27970198,619749,211955
 $215,2:4661700,21308075
-k215,3:4661700,21308075:18191288
-g215,2:24673550,21308075
+k215,3:4661700,21308075:13209523
+g215,2:19691785,21308075
+g215,2:21432562,21308075
+g215,2:23025453,21308075
+g215,2:24766230,21308075
 g215,2:26414327,21308075
 g215,2:27691703,21308075
 g215,2:30032887,21308075
@@ -3488,7 +3491,7 @@ $1,26:32631898,51691621
 ]
 ]
 ]
-!1669
+!1745
 }20
 !10
 {21
@@ -3525,8 +3528,8 @@ $1,27:34496578,51691621
 ]
 !659
 }21
-Input:216:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter2.tex
-!87
+Input:216:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter2.tex
+!107
 {22
 [216,11:4736287,51691621:27895611,46955334,6446
 h216,11:4736287,4736287:0,0,0
@@ -3818,7 +3821,7 @@ $216,11:32631898,51691621
 ]
 ]
 ]
-!7178
+!7179
 }22
 !10
 {23
@@ -6549,8 +6552,8 @@ $1,29:34496578,51691621
 ]
 !659
 }27
-Input:217:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter3.tex
-!87
+Input:217:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter3.tex
+!107
 {28
 [217,16:4736287,51691621:27895611,46955334,7252
 h217,16:4736287,4736287:0,0,0
@@ -6909,7 +6912,7 @@ $217,16:32631898,51691621
 ]
 ]
 ]
-!8840
+!8841
 }28
 !10
 {29
@@ -11885,8 +11888,8 @@ $1,31:34496578,51691621
 ]
 !659
 }35
-Input:218:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./dicfa2en.tex
-!87
+Input:218:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./dicfa2en.tex
+!107
 {36
 [1,35:4736287,51691621:27895611,46955334,26594
 h1,35:4736287,4736287:0,0,0
@@ -13688,7 +13691,7 @@ $1,35:32631898,51691621
 ]
 ]
 ]
-!39667
+!39668
 }36
 !11
 {37
@@ -13725,8 +13728,8 @@ $1,36:34496578,51691621
 ]
 !659
 }37
-Input:219:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./dicen2fa.tex
-!87
+Input:219:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./dicen2fa.tex
+!107
 {38
 [1,37:4736287,51691621:27895611,46955334,7655
 h1,37:4736287,4736287:0,0,0
@@ -16243,7 +16246,7 @@ $1,37:32631898,51691621
 ]
 ]
 ]
-!55340
+!55341
 }38
 !11
 {39
@@ -16280,8 +16283,8 @@ $1,38:34496578,51691621
 ]
 !659
 }39
-Input:220:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./en_title.tex
-!87
+Input:220:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./en_title.tex
+!107
 {40
 [1,58:4736287,51691621:27895611,46955334,0
 h1,58:4736287,4736287:0,0,0
@@ -16322,18 +16325,18 @@ $1,58:32631898,51691621
 ]
 ]
 ]
-!856
+!857
 }40
-Input:221:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./main.aux
-Input:222:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./preface.aux
-Input:223:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./introduction.aux
-Input:224:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter1.aux
-Input:225:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter2.aux
-Input:226:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./chapter3.aux
-Input:227:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./dicfa2en.aux
-Input:228:E:/University/MSc/MSc Thesis/Thesis Writing/MyThesis/./dicen2fa.aux
-!632
+Input:221:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./main.aux
+Input:222:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./preface.aux
+Input:223:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./introduction.aux
+Input:224:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter1.aux
+Input:225:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter2.aux
+Input:226:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./chapter3.aux
+Input:227:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./dicfa2en.aux
+Input:228:E:/University/MSc/MSc Thesis/Thesis Writing/MSc-Thesis-Writting/MyThesis/./dicen2fa.aux
+!792
 Postamble:
-Count:14211
+Count:14214
 !28
 Post scriptum:
